@@ -7,7 +7,7 @@ body, html {
   background-color: #ffcc00;
 }
 
-h1, p {
+h1, p , ul{
   margin: 0;
 }
 
@@ -15,12 +15,34 @@ header {
   background: #000000;
   color: white;
   height: 70px;
+  position: fixed;
+  width: 100%;
 }
 
+header h1 {
+  padding-top: 12px;
+  color: #ffcc00;
+  padding-left: 15px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header ul {
+  text-decoration: none;
+}
 #intro {
   background: url("https://static.pexels.com/photos/416405/pexels-photo-416405.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+
+#about {
+  height: 800px;
+  background-color: #ffcc00;
+  color: #000000;
 }
