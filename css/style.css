@@ -33,6 +33,7 @@ nav .logo h1 {
 
 nav.black .logo h1 {
   height: 60px;
+  color: #fff;
 }
 
 nav ul {
@@ -92,13 +93,21 @@ section.sec3 {
 }
 
 section.content {
-  padding: 100px;
+  padding: 90px;
+  background-color: #ffcc00;
+  text-align: center;
+}
+
+section.content img {
+  margin-top: 10px;
 }
 
 section.content h1 {
   margin: 0;
+  margin-top: -85px;
   padding: 0;
   font-size: 2em;
+  text-decoration: underline;
 }
 
 section.content p {
